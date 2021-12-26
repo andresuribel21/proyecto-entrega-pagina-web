@@ -1,0 +1,176 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+header{
+	padding: 20px;
+	width:110%;/*This property assigns the total widht of the header*/
+	height: 120px;/*This property assigns the total height of the header*/
+	background: #FFCCCE; /*Header's background color*/
+}
+
+#insidetheheader {
+	padding: 15px;
+	width: 85%;/*This property defines the total width of the div within the header*/
+	height: 60px;/*This property defines the total height of the div within the header*/
+	background:#F5FFFA;/*This property defines the background color of the div within the header*/
+	margin:auto;
+	float:left
+}
+
+#logo {
+width: 8%;
+height: 100%;
+margin: auto;
+float:left;
+}
+
+.textinheader {
+	left: 30px;
+	top: -10px;
+	position: relative;
+	float: left;
+	margin:left 5px;
+	color: #11C2D6;
+    font-family: corinthia;
+    font:bold;
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+
+#menu{
+	width: 30%;
+	height: 30px;
+	margin-top: 10px;
+	float: left;
+}
+
+li{
+	display: inline;
+
+}
+a{
+	color: white;
+	font:bold;
+	font-size: 18px;
+	font-family: Gluten;
+	text-decoration: none;
+	letter-spacing: 3px;
+	padding: 9px;
+}
+a:hover{
+	text-decoration: underline;
+
+}
+
+#container {
+	width: 90%;
+	height: 620px;
+	background: #F5FFFA;
+	margin: auto;
+	margin-top: 15px;
+	display: grid;
+	grid-template-columns: auto 30%;
+}
+footer{
+	margin-top: 10px;
+	padding: 20px;
+	width:110%;/*This property assigns the total widht of the header*/
+	height: 120px;/*This property assigns the total height of the header*/
+	background: #FFCCCE; /*Header's background color*/
+}
+
+#containerbackground{
+width: 100%;
+height: 100%;
+margin:auto;
+display:block;
+opacity: 60%;
+}
+
+#insidethefooter{
+	padding: 20px;
+	width: 85%;/*This property defines the total width of the div within the header*/
+	height: 60px;/*This property defines the total height of the div within the header*/
+	background:#F5FFFA;/*This property defines the background color of the div within the header*/
+	margin:auto;
+	float:left
+}
+.title-in-container{
+	font-family: corinthia
+	font-size:120%;
+	color: #11C2D6;
+	width: 50%;
+	padding: 60px;
+}
+
+.textincontainer{
+	font-family: corinthia
+	font-size:100%;
+	color: #11C2D6;
+	padding-top: 90px;
+}
+
+#whatsappbutton { 
+	border: none; 
+	text-align: center; 
+	text-decoration: none; 
+	font-size: 16px; 
+	border-radius: 20px; 
+	padding: 10px 20px; 
+	margin-top: 10px 
+	margin: auto; 
+	float:right;
+}
+
+#facebookbutton { 
+	border: none; 
+	text-align: center; 
+	text-decoration: none; 
+	font-size: 16px; 
+	border-radius: 20px; 
+	padding: 10px 20px; 
+	margin-top: 10px 
+	margin: auto; 
+	float:right;
+}
+
+#instagrambutton { 
+	border: none; 
+	text-align: center; 
+	text-decoration: none; 
+	font-size: 16px; 
+	border-radius: 20px; 
+	padding: 10px 20px; 
+	margin-top: 10px 
+	margin: auto; 
+	float:right;
+}
+#twitterbutton { 
+	border: none; 
+	text-align: center; 
+	text-decoration: none; 
+	font-size: 16px; 
+	border-radius: 20px; 
+	padding: 10px 20px; 
+	margin-top: 10px 
+	margin: auto; 
+	float:right;
+}
+
+.textinfooter{
+	top: -20px;
+	text-align: center;
+	padding: 5px;
+	left: 30px;
+	position: relative;
+	margin:left 5px;
+	color: #11C2D6;
+    font-family: corinthia;
+    font-size: 65%;
+}
+
+#bodybackground{
+	
+}
